@@ -1,63 +1,135 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Road Trip by TEMPLATED</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<style>
-.navbar{
+
+<head>
+	<title>JongHun Kim.</title>
+	<meta charset="utf-8" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|EB+Garamond&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica";
+  background-color: #1a1a1a;
+}
+
+
+/*--------------navbar*-----------------*/
+.navbar2{
 	height: 60px;
 	width: 100%;
 	background-color: #1a1a1a;
 }
-.navbar #logo{
+.navbar2 #logo2{
 	line-height: 60px;
 	padding-left: 30px;
 }
-.navbar #logo img{
+.navbar2 #logo2 img{
 	vertical-align: middle;
 }
-#menu{
+#menu2{
 	float: right;
 	list-style: none;
 	padding-right: 30px;
 	line-height: 60px;
 }
-#menu li{
+#menu2 li{
 	float: left;
 	margin-left: 20px;
 }
-#menu li a{
+#menu2 li a{
 	text-decoration: none;
 	color: #545454;
 	font-size: 16px;
 }
-#menu img{
+#menu2 img{
 	vertical-align: middle;
 }
-#menu .Home{
+#menu2 .Home{
 	color: #f7f7f7;
 	font-weight: 900;
 }
-
-#menu .Projects{
+#menu2 .Projects{
 }
-#menu .About{
+#menu2 .About{
+}
+#menu2 .Projects:hover{
+opacity: 0.6;
+}
+#menu2 .About:hover{
+opacity: 0.6;
+}
+#menu2 img:hover{
+opacity: 0.6;
 }
 
-	</style>
+/*banner*/
 
-	<body>
 
-<div class="navbar">
-	<a href="Home.html" id="logo">
+.hero-header {
+  height: 684px;
+  background-color:#1a1a1a;
+}
+.hero-header .helper {
+  display: inline-block;
+  height: 120%;
+  vertical-align: middle;
+}
+.info {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+.info h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 100;
+}
+.info h2 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: 100;
+  color: #f7f7f7;
+  font-family: 'EB Garamond', serif;
+}
+.NEXT {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  padding: 8px 40px;
+
+}
+.NEXT:hover{
+	color: #1a1a1a;
+	background-color: #f7f7f7;
+	padding: 10px 42px;
+}
+
+
+</style>
+
+<body>
+
+<div class="navbar2">
+	<a href="Home.html" id="logo2">
 		<img src="logo_white.png" height="24">
 		</a>
 
-	<ul id="menu">
-		<li><a href="index.html" class="Home">Home</a></li>
+	<ul id="menu2">
+		<li><a href="Home.html" class="Home">Home</a></li>
 		<li><a href="Projects.html" class="Projects">Projects</a></li>
 		<li><a href="About.html" class="About">About/Contact</a></li>
 
@@ -75,84 +147,19 @@
 	</ul>
 </div>
 
-		<!-- Banner -->
+	  	  <div class="hero-header">
+	    <div class="helper"></div><div class="info">
+	      <h1>Stay hungry, Stay foolish</h1>
+	      <h2>Steve Jobs</h2>
 
-			<section id="banner" class="bg-img" data-bg="banner.jpg">
-				<div class="inner">
-					<header>
-						<h1>This is Road Trip</h1>
-					</header>
-				</div>
-				<a href="#one" class="more">Learn More</a>
-			</section>
+	      <a href="projects.html" class="NEXT">Go to Next</a>
+	    </div>
+	  </div>
 
-		<!-- One -->
-			<section id="one" class="wrapper post bg-img" data-bg="banner2.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>Nibh non lobortis mus nibh</h2>
-							<p>01.01.2017</p>
-						</header>
-						<div class="content">
-							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
-						</div>
-						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
-						</footer>
-					</article>
-				</div>
-				<a href="#two" class="more">Learn More</a>
-			</section>
-
-		<!-- Two -->
-			<section id="two" class="wrapper post bg-img" data-bg="banner5.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>Mus elit a ultricies at</h2>
-							<p>12.21.2016</p>
-						</header>
-						<div class="content">
-							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
-						</div>
-						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
-						</footer>
-					</article>
-				</div>
-				<a href="#three" class="more">Learn More</a>
-			</section>
-
-		<!-- Three -->
-			<section id="three" class="wrapper post bg-img" data-bg="banner4.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>Varius a cursus aliquet</h2>
-							<p>11.11.2016</p>
-						</header>
-						<div class="content">
-							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
-						</div>
-						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
-						</footer>
-					</article>
-				</div>
-				<a href="#four" class="more">Learn More</a>
-			</section>
+</div>
 
 
-	
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+</body>
 </html>
